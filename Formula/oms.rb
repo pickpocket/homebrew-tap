@@ -1,19 +1,19 @@
 class Oms < Formula
   desc "Coding agent with the IDE wired in"
   homepage "https://github.com/pickpocket/oh-my-soup"
-  version "17.5.0"
+  version "17.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/pickpocket/oh-my-soup/releases/download/v#{version}/oms-darwin-arm64",
           using: :nounzip
-      sha256 "b635e2817fa713d23d3894d087f659af6a431078cba57216fc8c26f64c587bfb"
+      sha256 "41c18c2f986991a344ffcb8746273361ec2f828fa61b52b7b33345bd1ad5b8ef"
     end
     on_intel do
       url "https://github.com/pickpocket/oh-my-soup/releases/download/v#{version}/oms-darwin-x64",
           using: :nounzip
-      sha256 "b91f4f1b5f5293b80c1c5a38931ea14a580a61efad08ebce8924d8b9b705b9bc"
+      sha256 "5ffb7dc4fe73ce09979ba39efe3baea5bab531f16fa02a025482762fe1586ae3"
     end
   end
 
@@ -21,12 +21,12 @@ class Oms < Formula
     on_arm do
       url "https://github.com/pickpocket/oh-my-soup/releases/download/v#{version}/oms-linux-arm64",
           using: :nounzip
-      sha256 "59a01be576d07984078bb370b0d3bca290885442fca08f6ddedefaf775a54f12"
+      sha256 "3d908d46c1a4cd0779a9032140ad0116e609687969ac4d13779520d95ebccb27"
     end
     on_intel do
       url "https://github.com/pickpocket/oh-my-soup/releases/download/v#{version}/oms-linux-x64",
           using: :nounzip
-      sha256 "f2abfe807af2f3bde853f7b75243a49e7f3f30cbc0700be3c1dff358144cd210"
+      sha256 "300dde79db9e355c4d1f3ea8fe899ce19d462c5821d2c34f53a01c259cceeba8"
     end
   end
 
